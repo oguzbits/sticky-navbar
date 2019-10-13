@@ -1,0 +1,46 @@
+.sticky-wrapper {
+  position: relative;
+  height: 3rem;
+}
+
+.sticky nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(40, 44, 52, 0.7);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.nav-links p {
+  margin: 0.2rem 1rem;
+  opacity: 0.7;
+  font-size: 1.25rem;
+}
+
+.nav-links p:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nav-order {
+  display: flex;
+  flex-direction: row;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger div {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 8px;
+  transition: all 0.2s ease;
+}

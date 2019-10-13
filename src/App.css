@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20vh;
+}
+
+.home,
+.about,
+.contact {
+  background-color: #282c34;
+  min-height: 100vh;
+}
